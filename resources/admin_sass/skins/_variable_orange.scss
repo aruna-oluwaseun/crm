@@ -1,0 +1,57 @@
+/////////////////////////////////////////////
+////////       SKIN VARIABLES        ////////
+/////////////////////////////////////////////
+
+/// USED AS PRIMARY  ///
+$accent-100:  		#fde3da;
+$accent-200:  		#fbc6b5;
+$accent-300:  		#ffb69e;
+$accent-400:  		#f0997c;
+$accent-500:  		#db7655;
+
+$accent-color:  	#fd4c1c;
+$accent-light:  	$accent-300;
+$accent-dark:  		#df3c11;
+
+///  USED AS TEXT/SECONDARY  ///
+$base-color:  		#c62900;
+$base-text:  		#c76449;
+$base-light:  		#cb8f7f;
+$base-dark:  		#7a1a01;
+
+
+/// USED FOR LIGHT/DARK BG  ///
+$white:				#ffffff;
+$black: 			#000000;
+
+$lighter:			#f5f6fa; 		// @50
+$light:				#ebeef2; 		// @100
+$light-alt:			#e5e9f2; 		// @200
+$dark:				#bf411f; 		// @900
+$darker:			#ad2400; 		// @950
+
+
+///////////////////////////////////////////
+///////////////////////////////////////////
+
+$body-bg:							$lighter;
+
+$header-bg-color:                   $lighter;
+$header-border-bottom:				$light-alt;
+
+$header-bg-dark-color:              $darker;
+$header-bg-theme-color:        		darken($accent-dark, 2%);
+
+$sidebar-bg-color:					$lighter;
+$sidebar-border-color:              $light-alt;
+
+$sidebar-bg-dark-color:			    $darker;
+$sidebar-border-dark-color:         lighten($sidebar-bg-dark-color, 10%);
+
+$sidebar-bg-theme-color:			darken($accent-dark, 2%);
+$sidebar-border-theme-color:   		lighten($sidebar-bg-theme-color, 10%);
+
+$sidebar-bg-light-color:            $white;
+$sidebar-border-light-color:        $light;
+
+$lightest-grey:                     #fafafa;

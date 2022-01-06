@@ -1,0 +1,271 @@
+/*!
+ * Custom shizzle
+**/
+
+.nk-header-app-logo {
+  width: 60px !important;
+}
+
+@media (min-width: 768px) {
+  .nk-header-app-logo {
+    width: 65px !important;
+  }
+}
+
+.bg-abstract {
+  background-image: linear-gradient(to right, #df3c11 calc(60% - 150px), #fd4c1c calc(60% - 150px), #db7655 60%, #f0997c 60%, #f0997c calc(60% + 150px), #ffb69e calc(60% + 150px), #fbc6b5 100%);
+}
+
+.hidden-800-up {
+  display: block;
+}
+
+.visible-800-up {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .hidden-800-up {
+    display: none;
+  }
+
+  .visible-800-up {
+    display: block;
+  }
+}
+
+select:disabled {
+  cursor: not-allowed;
+}
+
+.form-control.success {
+  border-color: #1ee0ac !important;
+}
+
+input[type=button]:disabled,
+a:disabled {
+  opacity: 0.4;
+}
+
+.bg-light-grey {
+  background-color: #fafafa;
+}
+
+.btn-white.btn-outline-light:not(.btn-dim):not(:disabled):not(.disabled):hover {
+  background-color: #fd4c1c !important;
+  border-color: #df3c11 !important;
+}
+
+.team {
+  position: relative;
+}
+
+.team-info {
+  padding: 1rem 0 1.25rem;
+}
+
+.team-info li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.9375rem;
+  line-height: 1.75rem;
+}
+
+.team-info li span:first-child {
+  color: #8094ae;
+}
+
+.team-info li span:last-child {
+  color: #526484;
+}
+
+.team-status {
+  position: absolute;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+
+.team-options {
+  position: absolute;
+  top: -0.25rem;
+  right: -0.25rem;
+}
+
+.team-details {
+  padding-top: 0.5rem;
+  text-align: center;
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+.team-statistics {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 1rem 0 1.5rem;
+}
+
+.team-statistics li span {
+  display: block;
+}
+
+.team-statistics li span:first-child {
+  font-size: 1.125rem;
+  color: #fd4c1c;
+}
+
+.team-statistics li span:last-child {
+  font-size: 0.875rem;
+  color: #f0997c;
+}
+
+.team-view {
+  display: block;
+  justify-content: center;
+  padding-bottom: 0.25rem;
+}
+
+.nk-file {
+  display: flex;
+  position: relative;
+  margin: 8px;
+  background: #fff;
+  border: 1px solid #dbdfea;
+  border-radius: 4px;
+  padding: 10px 15px;
+}
+
+.icon-status {
+  position: relative;
+  display: inline-flex;
+}
+
+.icon-status:after {
+  position: absolute;
+  border-radius: 50%;
+  right: 0;
+  top: 1px;
+  height: 10px;
+  width: 10px;
+  border: 2px solid #fff;
+  content: "";
+}
+
+.icon-status .pulse {
+  position: absolute;
+  /* top: -20px; */
+  /* right: -4px; */
+  height: 28px;
+  width: 28px;
+  z-index: 10;
+  border: 5px solid;
+  border-radius: 70px;
+  -moz-animation: pulse 1s ease-out;
+  -moz-animation-iteration-count: infinite;
+  -o-animation: pulse 1s ease-out;
+  -o-animation-iteration-count: infinite;
+  -webkit-animation: pulse 1s ease-out;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  /*mine*/
+  top: -8px;
+  right: -9px;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale(0);
+    opacity: 0;
+  }
+
+  25% {
+    -webkit-transform: scale(0.1);
+    opacity: 0.1;
+  }
+
+  50% {
+    -webkit-transform: scale(0.5);
+    opacity: 0.3;
+  }
+
+  75% {
+    -webkit-transform: scale(0.8);
+    opacity: 0.5;
+  }
+
+  to {
+    -webkit-transform: scale(1);
+    opacity: 0;
+  }
+}
+
+.icon-status-info .pulse {
+  border-color: #09c2de;
+}
+
+.icon-status-danger .pulse {
+  border-color: #e85347;
+}
+
+.icon-status-success .pulse {
+  border-color: #1ee0ac;
+}
+
+.icon-status-warning .pulse {
+  border-color: #f4bd0e;
+}
+
+.icon-status-on .pulse {
+  border-color: #1ee0ac;
+}
+
+.icon-status-off .pulse {
+  display: none;
+}
+
+.icon-status-na .pulse {
+  display: none;
+}
+
+.nk-upload-form .upload-zone .dz-message-text span {
+  color: #fd4c1c !important;
+}
+
+/* Table options */
+
+.options td {
+  border-top: 1px dashed #fde3da !important;
+  padding: 1.25rem 0.25rem;
+}
+
+.global-search-container {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .global-search-container {
+    width: 360px;
+    display: block;
+  }
+}
+
+.wire-loader {
+  display: block;
+}
+
+.wire-loader.hide {
+  display: none;
+}
+
+/* Shrink the padding so all list items are displayed */
+
+.link-list-menu.large-list a {
+  padding: 0.7rem 1.5rem !important;
+}
+
